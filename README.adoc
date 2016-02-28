@@ -1,1 +1,24 @@
-Some notes on debating conspiracy theorists.
+The Duck Book
+=============
+:email: duckbook.adoc@gmail.com
+:listdef-labeled.style:  horizontal
+:listdef-labeled2.style: horizontal
+
+Some notes from debates with conspiracy theorists.
+
+== Requirements
+
+- asciidoctor
+- ruby2.1
+- bundler
+- GNU make
+
+Theoretically everything should work with asciidoc, but asciidoctor is used for dependency discovery in the build system.
+
+== Structure
+
+assets:: any media that isn't text and might potentially be used from a few locations
+    meta;; assets related to the description of the document itself
+    xkcd;; comic images from http://xkcd.com/[xkcd]
+output:: results from document compilation
+papers:: a store for academic papers (if you have them)
